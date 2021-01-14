@@ -1,10 +1,12 @@
 import React from 'react';
 
 const CharacterItem = ({ item }) => {
-   return (
+
+
+  return (
     <div className='card'>
       <div className='eps'>
-        {item.appearance}
+          {item.appearance}
       </div>
       <div className='card-inner'>
         <div className='card-front'>

@@ -1,4 +1,4 @@
-import { getSuggestedQuery } from '@testing-library/react';
+//import { getSuggestedQuery } from '@testing-library/react';
 import React, { useState } from 'react';
 
 const Search = ({ getQuery }) => {
