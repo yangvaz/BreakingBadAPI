@@ -37,7 +37,12 @@ const App = () => {
   useEffect(() => {
     const fetchEpisodes = async () => {
       const episodes = await axios(
-        `https://www.breakingbadapi.com/api/episodes?series=Breaking+Bad`)
+        `https://www.breakingbadapi.com/api/episodes?series=Breaking+Bad`
+      )
+
+      //console.log(episodes.data.map((x) => 
+      //  x.characters.includes(query)
+      //))
 
       console.log(episodes.data)
 
@@ -56,10 +61,14 @@ const App = () => {
         isLoading={isLoading}
         items={items}
       />
-      <EpisodeGrid
-        isLoading={isLoading}
-        items={episodes}
-      />
+      {items.map(character => (
+        <EpisodeGrid
+          isLoading={isLoading}
+          items={episodes.filter(episode =>
+            episode.characters.includes(character.name)
+          )}
+        />
+      ))}
     </div>
   );
 }

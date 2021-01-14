@@ -5,9 +5,6 @@ const CharacterItem = ({ item }) => {
 
   return (
     <div className='card'>
-      <div className='eps'>
-          {item.appearance}
-      </div>
       <div className='card-inner'>
         <div className='card-front'>
           <img src={item.img} alt='' />
