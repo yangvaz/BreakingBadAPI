@@ -8,7 +8,6 @@ const EpisodeGrid = ({ items, isLoading }) => {
   ) : (
       <section className="cards">
         {items.map((item) => (
-          //item.characters.includes('Gale Boetticher') ? item.episode : (console.log('num deu'))
           <EpisodeItem key={item.char_id} item={item}> </EpisodeItem>
         ))}
       </section>
