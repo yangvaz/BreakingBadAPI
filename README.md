@@ -18,3 +18,5 @@ npm start
 # Build o app
 npm run build
 ```
+
+Pra melhor experiência, digite o nome completo do personagem

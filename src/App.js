@@ -61,14 +61,16 @@ const App = () => {
         isLoading={isLoading}
         items={items}
       />
-      {items.map(character => (
-        <EpisodeGrid
-          isLoading={isLoading}
-          items={episodes.filter(episode =>
-            episode.characters.includes(character.name)
-          )}
-        />
-      ))}
+      <div className="divMaior">
+        {items.map(character => (
+          <EpisodeGrid
+            isLoading={isLoading}
+            items={episodes.filter(episode =>
+              episode.characters.includes(character.name)
+            )}
+          />
+        ))}
+      </div>
     </div>
   );
 }
