@@ -27,6 +27,10 @@ const CharacterItem = ({ item }) => {
             <li>
               <strong>Category:</strong> {item.category}
             </li>
+            <br />
+            <li>
+              <strong>Episódios em que aparece, ao lado.</strong>
+            </li>
           </ul>
         </div>
       </div>
