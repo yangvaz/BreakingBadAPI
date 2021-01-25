@@ -86,6 +86,8 @@ input[type='text'] {
 
   text-justify: auto;
 
+  margin-left: 200%;
+
 }
 
 .divMaior {
@@ -145,7 +147,7 @@ input[type='text'] {
 .card-inner {
   position: relative;
   width: 250px;
-  height: 100%;
+  height: 300px;
   transition: transform 0.8s;
   transform-style: preserve-3d;
 
@@ -159,7 +161,7 @@ input[type='text'] {
 .card-back {
   position: absolute;
   width: 250px;
-  height: 100%;
+  height: 300px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
@@ -188,7 +190,7 @@ input[type='text'] {
   }
   .card img {
     width: 100%;
-    height: 500px;
+    height: 300px;
     object-fit: contain;
   }
 }

@@ -10,7 +10,6 @@ const EpisodeItem = ({ item }) => {
       </div>
     </div>
   )
-  
 }
 
 
