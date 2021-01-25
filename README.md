@@ -19,4 +19,6 @@ npm start
 npm run build
 ```
 
-Pra melhor experiência, digite o nome completo do personagem
+Obs 1: Pra melhor experiência, digite o nome completo do personagem
+
+Obs 2: Note que a API não informa em quais episódios estiveram alguns personagens
